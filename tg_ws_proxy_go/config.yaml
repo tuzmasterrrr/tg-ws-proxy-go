@@ -1,0 +1,26 @@
+name: TG WS Proxy Go
+version: "0.9.0"
+slug: tg_ws_proxy_go
+description: Telegram MTProto WebSocket Bridge Proxy (Go 0.9)
+arch:
+  - aarch64
+startup: services
+boot: auto
+init: false
+host_network: true
+
+options:
+  host: "0.0.0.0"
+  port: 14444
+  secret: "e6f6dc11bf0c740979713a9360cac105"
+  dc_ip_default: "149.154.167.220"
+  dc_ip: "4:149.154.167.220"
+  no_cfproxy: true
+
+schema:
+  host: str
+  port: port
+  secret: password
+  dc_ip_default: str
+  dc_ip: str
+  no_cfproxy: bool
