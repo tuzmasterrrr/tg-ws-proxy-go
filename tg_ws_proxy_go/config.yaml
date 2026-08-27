@@ -1,5 +1,5 @@
 name: TG WS Proxy Go
-version: "0.9.0"
+version: "0.9.1"
 slug: tg_ws_proxy_go
 description: Telegram MTProto WebSocket Bridge Proxy (Go 0.9)
 arch:
